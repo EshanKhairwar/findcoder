@@ -36,7 +36,6 @@ export async function getStaticPaths() {
       { params: { slug: "how-to-learn-javascript" } },
       { params: { slug: "how-to-be-coder" } },
       { params: { slug: "how-to-learn-next" } },
-      { params: { slug: "How-to-learn-sql" } },
     ],
     fallback: true,
   };
