@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  /* padding: 2rem; */
   min-height: 100vh;
 }
 
@@ -17,6 +17,9 @@
   z-index: 2;
   font-family: var(--font-mono);
 }
+
+
+
 
 .description a {
   display: flex;
@@ -54,6 +57,43 @@
   transition: background 200ms, border 200ms;
 }
 
+
+.con{  
+    align-content: center;
+    margin-top: 20px;
+    padding: 0;
+    background-color: rgba(227, 220, 193, 0.5);
+    border-radius: 50px;
+    width: 500px;
+    z-index: 3;
+    margin-bottom: 40px;   
+}
+
+.con h2{
+  margin-left: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 20px;
+}
+
+.con .blogItems{
+    padding-top: 15px;
+   margin-top: auto;
+   margin-left: 0px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   text-align: center;
+}
+
+.con .blogItems h2{
+  font-size: 24px;
+}
+
+.myImg{
+  border-radius:180px ;
+  margin: 10px;
+  width: 300px;
+  height: 240px;
+}
 .card span {
   display: inline-block;
   transition: transform 200ms;
@@ -62,6 +102,7 @@
 .card h2 {
   font-weight: 600;
   margin-bottom: 0.7rem;
+  font-size: 18px;
 }
 
 .card p {
@@ -81,7 +122,7 @@
 }
 
 .center::before {
-  background: var(--secondary-glow);
+  /* background: var(--secondary-glow); */
   border-radius: 50%;
   width: 480px;
   height: 360px;
@@ -89,7 +130,7 @@
 }
 
 .center::after {
-  background: var(--primary-glow);
+  /* background: var(--primary-glow); */
   width: 240px;
   height: 180px;
   z-index: -1;
@@ -106,6 +147,42 @@
 
 .logo {
   position: relative;
+}
+.headings{
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+}
+.headings h1{
+  text-align: center;
+}
+.headings p{
+  text-align: center;
+}
+.mainnav ul{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  }
+.mainnav ul li{
+
+    margin: 0 23px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.mainnav ul li:hover{
+  color: red;
+}
+.blogs{
+  margin-top: 10px;
+  justify-content: flex-start;
+}
+.blogs .blogItems{
+  margin:10px;
+
 }
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
@@ -202,8 +279,23 @@
   }
 }
 
+
+/* Responsive */
+
+@media only screen and (max-width:600px){
+  .mySpan h1{
+    font-size: 22px;
+    max-width: 600px;
+  }
+  .con{
+    width: 327px;
+    font-size: 15px;
+  }
+} 
+
+
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+/* @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
@@ -227,3 +319,5 @@
     transform: rotate(0deg);
   }
 }
+
+ */

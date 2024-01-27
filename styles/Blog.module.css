@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 3rem;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+.con{  
+    align-content: center;
+    margin-top: 20px;
+    padding: 0;
+    /* height: 100%; */
+    text-align: center;
+}
+
+.blogCont{
+
+}
+
+.con .blogItems{
+    padding-top: 15px;
+   /* margin-top: auto; */
+   margin-top:20px;
+   margin-left: 0px;
+   padding-top: 20px;
+}
+
+.con .blogItems h3{
+cursor: pointer;
+}
+
+.blogItemsP{
+  max-width: 45vw;
+}
+
+.myImg{
+  border-radius:20px ;
+  margin: 10px;
+}

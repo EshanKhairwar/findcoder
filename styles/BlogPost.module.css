@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 3rem;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .con{  
+    align-content: center;
+    margin-top: 20px;
+    padding: 0;
+    /* height: 100%; */
+    text-align: center;
+}
+.main p{
+    margin-top: 20px;
+    /* text-align: center; */
+    text-wrap: wrap;
+}
